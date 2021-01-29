@@ -1,0 +1,39 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <s:Header>
+        <ActivityId CorrelationId="04f33574-e6e4-4828-8ab8-0c7ed87934ac"
+                    xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">
+            2ee40eab-9bfb-4782-b03e-8c4d9af999c4
+        </ActivityId>
+        <o:Security s:mustUnderstand="1"
+                    xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <u:Timestamp u:Id="_0">
+                <u:Created>2016-02-21T06:59:27.433Z</u:Created>
+                <u:Expires>2016-02-21T07:04:27.433Z</u:Expires>
+            </u:Timestamp>
+        </o:Security>
+    </s:Header>
+    <s:Body>
+        <GetPersonInfoResponse xmlns="http://mol.gov.sa/services/">
+            <GetPersonInfoResult xmlns:a="http://schemas.datacontract.org/2004/07/Mol.Integration.Services"
+                                 xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:BirthDateH>1400/01/01</a:BirthDateH>
+                <a:FamilyName>السعيد</a:FamilyName>
+                <a:FamilyNameT>ALSAEED</a:FamilyNameT>
+                <a:FatherName>سليمان</a:FatherName>
+                <a:FatherNameT>SULAIMAN</a:FatherNameT>
+                <a:FirstName>أحمد</a:FirstName>
+                <a:FirstNameT>NORAH</a:FirstNameT>
+                <a:GrandfatherName>سعيد</a:GrandfatherName>
+                <a:GrandfatherNameT>SAEED</a:GrandfatherNameT>
+                <a:HasSaudiDependents>Y</a:HasSaudiDependents>
+                <a:Id>1010101010</a:Id>
+                <a:MaritalStatus>لا يوجد</a:MaritalStatus>
+                <a:Nationality>العربية السعودية</a:Nationality>
+                <a:Occupation>اداريون</a:Occupation>
+                <a:Sex>ذكر</a:Sex>
+                <a:Status>حى يرزق</a:Status>
+            </GetPersonInfoResult>
+        </GetPersonInfoResponse>
+    </s:Body>
+</s:Envelope>
